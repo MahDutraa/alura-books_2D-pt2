@@ -96,7 +96,7 @@ conteiner_titulo-negrito{
     display: none;
 }
 
-.opcoes__botão:checked~.lista-menu {
+.opcoes__botao:checked~.lista-menu {
     display: block;
     width: auto;
 }
