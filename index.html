@@ -44,6 +44,31 @@
         <bclass="container__titulo-negrito">Alura</b>Books
       </h1>
     </div>
+    <ul class="opcoes"> 
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao"> 
+        <label for="opcoes__menu">
+          <li class="opcoes__item">Categorias</li>
+        </label>
+        
+        <ul class="lista__menu">
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Programação</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Front-end</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Infraestrutura</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Business</a>
+        </li>
+        <li class="lista__menu-item">
+          <a href="#" class="lista__menu-link">Design</a>
+        </li>
+        </ul>
+      </ul> 
+    </div>
     <div class="container">
       <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
       <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
@@ -166,7 +191,7 @@
     </div>
 
 
-
+    
   </section>
 
   <section class="tópicos">
@@ -213,17 +238,98 @@
       slidesPerView: 3,
       pagination: {
         el: ".swiper-pagination",
+      <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">&copy; Turma 2D 2024</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Caelum.svg" alt="Logo da Caelum" />
+        <a href="#" class="lista-rodapé__link">Caelum</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+    </ul> <!--FALTOU-->
+    
+      <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Caelum.svg" alt="Logo da Caelum" />
+        <a href="#" class="lista-rodapé__link">Caelum</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+    </ul>
+
+      <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Caelum.svg" alt="Logo da Caelum" />
+        <a href="#" class="lista-rodapé__link">Caelum</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do código" />
+        <a href="#" class="lista-rodapé__link">Casa do código</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
         type: "bullets",
       },
     });
   </script>
 </body>
-  <section class="contato">
-    <div class="contato-descrição">
-      <h2 class="contato_titulo"> fique por dentro
-        <p class="contato_texto">
-        Atualização de e-books, novos livros,
-        <\p>
-          <\div>
-          <input type="email" placeholder= "cadastre"
-            <\selection>
+
+</html>
